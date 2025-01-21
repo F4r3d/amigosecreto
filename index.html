@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteio - Amigo Secreto</title>
+</head>
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+        <section class="topo">
+            <h1>Amigo Secreto</h1>
+            <img src="imagens/sorteio.png" alt="Amigo Secreto">
+        </section>
+
+        <section class="formulario">
+            <div class="subtitulo">
+                <h1>Digite o nome de cada um dos amigos:</h1>
+            </div>
+            <div class="dados">
+                <input class="nome" placeholder="Digite um nome">
+                <button onclick="adicionarNome()" class="adicionar">Adicionar</button>
+            </div>
+            <div class="sorteado">
+                <h2></h2>
+            </div>
+            <div class="botao_sortear">
+                <button onclick="sortearAmigoSecreto()" id="play" class="sortear" disabled>
+                <img src="imagens/play.png"><h3>Sortear Amigo(a)!</h3></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Edson Faria</h3>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Outfit:wght@100..900&display=swap');
+
+/*font-family: "Bubblegum Sans", serif;*/
+/*font-family: "Outfit", serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    background-color: #FBF8EF;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.topo h1 {
+    font-family: "Bubblegum Sans", serif;
+    font-size: 48px;
+    color: #78B3CE;
+}
+
+.topo img {
+    width: 15%;
+}
+
+.formulario {
+    background-color: #C9E6F0;
+    height: 40vh;
+    padding: 3%;
+}
+
+.formulario h1 {
+    text-align: center;
+    font-family: "Outfit", serif;;
+    font-size: 30px;
+    color: #F96E2A;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-size: 30px;
+    color: #F96E2A;
+    padding-bottom: 1%;
+}
+
+.dados {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.nome {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "Outfit", serif;
+    font-size: 18px;
+    padding: 1%
+}
+.adicionar {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FBF8EF;
+    font-family: "Outfit", serif;
+    font-size: 18px;
+    padding: 1%;
+}
+
+.dados button:hover {
+    background-color: #78B3CE;
+}
+
+.sorteado h2 {
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-size: 24px;
+    color: #F96E2A;
+    font-style: italic;
+    padding-bottom: 1%;
+}
+
+.botao_sortear button {
+    border-radius: 20px;
+}
+
+.sortear {
+    display: flex;
+    background-color: #F96E2A;
+    width: 18%;
+    font-size: 15px;
+    padding: 1%;
+    gap: 9%;
+}
+
+.botao_sortear {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.botao_sortear button:hover {
+    background-color: #78B3CE;
+}
+
+.sortear h3 {
+    font-family: "Outfit", serif;
+    color:#FBF8EF
+}
+
+.sortear img {
+    width: 12%;
+}
+
+.rodape {
+    background-color: #FBF8EF;
+}
+
+.rodape h3 {
+    font-family: "Outfit", serif;
+    color: #78B3CE;
+    text-align: center;
+    font-size: 12px;
+}
+
