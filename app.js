@@ -25,7 +25,7 @@ function sortearAmigoSecreto() {
     } else {
         let numeroIndice = parseInt(Math.random() * participantes);
         let amigoSecreto = listaNomes[numeroIndice];
-        lista.innerHTML = "O(A) amigo(a) secreto(a) é: " + amigoSecreto + " !";
+        lista.innerHTML = "O(A) amigo(a) secreto(a) é: " + amigoSecreto + "!";
         listaNomes.splice(numeroIndice, 1);
     }
 
