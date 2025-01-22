@@ -150,7 +150,7 @@
 
     .sorteado h2 {
         padding-bottom: 6%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .sortear {
@@ -164,6 +164,10 @@
     }
     .sortear h3 {
         font-size: 3vw;
+    }
+
+    .dados button:hover {
+        background-color: #F96E2A;
     }
 }
 
