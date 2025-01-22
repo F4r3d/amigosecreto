@@ -129,6 +129,29 @@
 
 /* Responsividade */
 @media (max-width: 1250px) {
+
+    .topo {
+        flex-direction: column-reverse;
+        gap: 6%
+    }
+
+    .topo img {
+        width: 25%;
+    }
+
+    .subtitulo h1 {
+        font-size: 4vw;
+        padding-bottom: 2%;
+    }
+
+    .dados {
+        padding-bottom: 6%;
+    }
+
+    .sorteado h2 {
+        padding-bottom: 6%;
+    }
+
     .sortear {
         width: 40%;
         padding: 2vw 3vw;
