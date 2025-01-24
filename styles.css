@@ -103,7 +103,7 @@
     align-items: center;
 }
 
-.botao_sortear button:hover {
+.botao_sortear button:hover, .botao_sortear button:active {
     background-color: #78B3CE;
 }
 
@@ -166,8 +166,10 @@
         font-size: 3vw;
     }
 
-    .dados button:hover {
-        background-color: #F96E2A;
-    }
 }
 
+@media (hover: none), (pointer: coarse) {
+    .botao_sortear button:hover {
+        background-color: #F96E2A
+    }
+}
