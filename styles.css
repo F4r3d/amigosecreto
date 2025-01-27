@@ -168,8 +168,13 @@ body {
         width: 3vw;
         height: 3vw;
     }
+    
     .sortear h3 {
         font-size: 3vw;
+    }
+
+    .formulario {
+        padding-bottom: 18vh;
     }
 
 }
