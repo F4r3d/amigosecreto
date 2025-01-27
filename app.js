@@ -7,8 +7,9 @@ function adicionarNome() {
     alert('Por favor, digite um nome!');
     } else {
         listaNomes.push(nome);
+        lista.innerHTML += `<li>${nome}</li>`
     }
-    lista.innerHTML = listaNomes
+    //lista.innerHTML += '<li>${nome}</li>'//listaNomes
     document.getElementById('play').removeAttribute('disabled');
     limparNome()
 }
@@ -31,4 +32,9 @@ function sortearAmigoSecreto() {
 
 }
 
-
+document.querySelectorAll('.dados button').forEach(button => {
+    button.addEventListener('touchstart', function() {
+      // Remove o efeito de hover
+      this.style.backgroundColor = '';
+    });
+  });
